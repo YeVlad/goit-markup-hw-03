@@ -56,8 +56,12 @@ body {
 }
 
 .navigation-list {
-  padding: 24px 0;
   gap: 40px;
+}
+
+.navigation-link {
+  /*     */
+  padding: 24px 0;
 }
 
 .address-list {
@@ -154,10 +158,15 @@ address {
   line-height: 1.07;
   letter-spacing: 1.12px;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-button {
-  background: #4d5ae5;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
   color: #fff;
   font-size: 16px;
@@ -166,7 +175,7 @@ address {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-  border: 0;
+  border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-button:hover,
