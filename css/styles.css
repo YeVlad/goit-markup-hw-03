@@ -59,7 +59,12 @@ body {
   gap: 40px;
 }
 
-.navigation {
+.nav-link {
+  display: block;
+  padding: 24px 0;
+}
+
+.container-header {
   padding: 24px 0;
 }
 
